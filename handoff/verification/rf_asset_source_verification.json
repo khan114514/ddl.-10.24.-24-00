@@ -1,0 +1,11 @@
+{
+  "scope": "RF download metadata/recovery guide only",
+  "all_19_sources_match_frozen_sha256": true,
+  "models_downloaded": false,
+  "h20_mount_verified": false,
+  "changed_publication_files": 5,
+  "privacy_findings": [],
+  "onedc_private_share_created": true,
+  "onedc_private_share_published_in_repository": false,
+  "onedc_cloud_bytes_rehashed": false
+}

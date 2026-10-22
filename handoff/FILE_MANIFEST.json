@@ -10,8 +10,8 @@
       "bytes": 3172
     },
     "DOWNLOADS.md": {
-      "sha256": "30424218e6517ce70e496e47659a300cd0ece738f9a345604e551c7c13cddd9d",
-      "bytes": 2563
+      "sha256": "500ce39ae95e904035e560278593b8e09458f7d0bd91541a5614af23a3b40bc9",
+      "bytes": 3161
     },
     "README.md": {
       "sha256": "06719355928a2d721648d64b85c31c3725bd32bcc00529f0721f50aea5429ea5",
@@ -8014,12 +8014,20 @@
       "bytes": 1144
     },
     "auto0505/deployment/README.md": {
-      "sha256": "c91cdc44e6285b94c19fce6a4aab96d8ecb572d42b60b38078eaf8ac743622ac",
-      "bytes": 3333
+      "sha256": "54536bfa5616ea0fc6fe215400b66b12e8741ef5aacdac597bf874f4e5537d38",
+      "bytes": 3588
+    },
+    "auto0505/deployment/WEIGHT_RECOVERY.md": {
+      "sha256": "5da8ebf4daf8d85ae3ba756980943c26f1a0e641a93d2741443c0ed77889171c",
+      "bytes": 3684
     },
     "auto0505/deployment/prepare_weights.py": {
       "sha256": "d899510301af6874ad5dbed20446cb2b43670fe500e12c6212c7238f06d884e0",
       "bytes": 1963
+    },
+    "auto0505/deployment/rf_weight_sources.json": {
+      "sha256": "3284a31bf180819fb6e7fc78009e56b70150b1a6bffef994bcd616fca20777a1",
+      "bytes": 13582
     },
     "auto0505/deployment/runtime-image/Dockerfile": {
       "sha256": "b534621a334d9abd735508a81b8739b9e7320f6711f13558328c92966fb54eb5",
@@ -27870,8 +27878,8 @@
       "bytes": 719038
     },
     "handoff/BLOCKERS_AND_ASSETS.md": {
-      "sha256": "063dbb18a7e829d8e4eb9ad34883e3eee1135d5e9b1845c3aab549e205e7f989",
-      "bytes": 2675
+      "sha256": "56dcb59b8a2a6335f0307e5ac9c501cac5c905c75cf2b200de8b74d9bba7276b",
+      "bytes": 2776
     },
     "handoff/CURRENT_REVIEW_POLICY.md": {
       "sha256": "ee035492d279e5d8bcf716da7b16f12b063dfea57d32c4fffc3fb4e4abddda1f",
