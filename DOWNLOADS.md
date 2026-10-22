@@ -29,3 +29,7 @@ OneDC 历史源码和六份正式原始日志在 `auto0776/source/onedc_v9/`；�
 ## RF新增可恢复下载源（2026-10-22）
 
 四个大权重及15个配套文件已逐项找到与原冻结SHA256一致的固定版本来源，见 [RF权重恢复](auto0505/deployment/WEIGHT_RECOVERY.md) 和 [19文件源映射](auto0505/deployment/rf_weight_sources.json)。这是下载来源核验，不是大模型已下载或H20已挂载。OneDC资产包已在网盘主窗口确认可见，并于本次对话生成七天有效分享入口，链接和提取码在对话中单独交付；该私有分享链接不写入公开仓库。下载后仍须校验归档清单中的字节数与SHA256。
+
+## Bifrost现存分片核验（2026-10-22）
+
+在用户指定的既有存储上找到六个完整checkpoint分片，逐字节SHA256与题包冻结清单全部一致，共29,663,264,600字节；具体主机和目录在本次用户对话单独交付。[本次校验记录](handoff/verification/bifrost_recovered_shards_verified.json)仅确认原分片字节，不表示已恢复完整模型目录、张量准备/GPU运行或目标平台验收。不要使用同目录的 `.partial-*` 文件。

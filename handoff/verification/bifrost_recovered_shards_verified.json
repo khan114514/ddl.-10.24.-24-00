@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-22",
+  "scope": "Read-only raw shard byte hashes on user-selected existing storage; no model loading, training, task QA or platform acceptance",
+  "location": "Exact remote path supplied privately in current user conversation; connection details not published",
+  "manifest_reference": "auto0783/source/dependencies/checkpoint/public-tensor-manifest.json#checkpoint_shards",
+  "shards": [
+    {
+      "name": "model-00001-of-00006.safetensors",
+      "bytes": 4970096192,
+      "sha256": "4fe54b7a79628152b952fd451bfe82f2a1b8272b8bfd6798a098c2b7cee5d2bf",
+      "matches": true,
+      "seconds": 15.98
+    },
+    {
+      "name": "model-00002-of-00006.safetensors",
+      "bytes": 4991499520,
+      "sha256": "795b56ea625c297996862653a7f1cc127b15dd774546e758e2cd80d95e6ef46e",
+      "matches": true,
+      "seconds": 16.7
+    },
+    {
+      "name": "model-00003-of-00006.safetensors",
+      "bytes": 4991485040,
+      "sha256": "deb7758cceea899c64895543df13ebe0015402d01f19c5c837a73eb0effc9bff",
+      "matches": true,
+      "seconds": 15.65
+    },
+    {
+      "name": "model-00004-of-00006.safetensors",
+      "bytes": 4932769200,
+      "sha256": "99d36d19a3c97c770bb9a0b5651e9f4be9d193fe094d16813aff63a9cf822786",
+      "matches": true,
+      "seconds": 20.84
+    },
+    {
+      "name": "model-00005-of-00006.safetensors",
+      "bytes": 4991499648,
+      "sha256": "98479819b3f05d7c60236eddf885c3441a7d8de211b7f41b29987eb0ff556f86",
+      "matches": true,
+      "seconds": 22.84
+    },
+    {
+      "name": "model-00006-of-00006.safetensors",
+      "bytes": 4785915000,
+      "sha256": "dba6d89a93406aad36ed91f88620dec7f878356af04de4045b96677f346f3f5f",
+      "matches": true,
+      "seconds": 21.6
+    }
+  ],
+  "summary": {
+    "all_six_match": true,
+    "verified_bytes": 29663264600
+  }
+}
