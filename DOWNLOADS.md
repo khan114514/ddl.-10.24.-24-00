@@ -33,3 +33,7 @@ OneDC 历史源码和六份正式原始日志在 `auto0776/source/onedc_v9/`；�
 ## Bifrost现存分片核验（2026-10-22）
 
 在用户指定的既有存储上找到六个完整checkpoint分片，逐字节SHA256与题包冻结清单全部一致，共29,663,264,600字节；具体主机和目录在本次用户对话单独交付。[本次校验记录](handoff/verification/bifrost_recovered_shards_verified.json)仅确认原分片字节，不表示已恢复完整模型目录、张量准备/GPU运行或目标平台验收。不要使用同目录的 `.partial-*` 文件。
+
+## 新增服务器检查（2026-10-22）
+
+用户随后提供的另一台服务器中，未找到 RF 四个目标大权重、OneDC 资产归档或 lambda4.6 核心权重；找到的 AlexNet、VGG16 两个辅助缓存与原资产清单 SHA256 一致。该服务器还可见 Bifrost 六个同名同大小分片，本轮未重读其字节哈希。详见[补充记录](handoff/verification/additional_asset_server_check.json)；连接信息和实际目录仅在用户对话交付。OneDC 完整恢复仍使用上述网盘归档，RF 仍按固定版本下载源恢复。

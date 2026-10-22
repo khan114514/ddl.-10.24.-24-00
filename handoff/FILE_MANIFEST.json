@@ -10,8 +10,8 @@
       "bytes": 3172
     },
     "DOWNLOADS.md": {
-      "sha256": "14302b147ba12491aff92d6fe33b0318ff04a58adb22980780de3ca09276dfc8",
-      "bytes": 3653
+      "sha256": "09fa5e93ad3eeb6629bdde08925aecd66e7e963f0a67415c6ed66df5378e1ed7",
+      "bytes": 4219
     },
     "README.md": {
       "sha256": "06719355928a2d721648d64b85c31c3725bd32bcc00529f0721f50aea5429ea5",
@@ -15266,8 +15266,8 @@
       "bytes": 3370
     },
     "auto0776/assets/RECOVERY.md": {
-      "sha256": "52baea9afbd92b54b06e9265602f2d20612e27c9140d3a1a347dd83fff16c8ed",
-      "bytes": 3557
+      "sha256": "9c1d188523913217303c25ea8f6c19959e8b69cab4fee382d0b5fc5d69f877b7",
+      "bytes": 4225
     },
     "auto0776/assets/archives.json": {
       "sha256": "4a94031e572dc6f89c55d75a632ddd2be82eccf10f5872e8ad35ff903b4dcab0",
@@ -15822,7 +15822,7 @@
       "bytes": 3919
     },
     "auto0776/manifests/files.json": {
-      "sha256": "0feffde54991bcf085c55c965d6915e46835a41210a0ca665cb89f048a75221f",
+      "sha256": "7f0acc331e3e8045b773e5b939c65673fd0019119f9755743676dea7b8b43253",
       "bytes": 256585
     },
     "auto0776/manifests/skills_provenance.json": {

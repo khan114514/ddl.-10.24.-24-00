@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-22",
+  "scope": "Read-only inventory on a second user-selected server and byte hashes of two existing OneDC auxiliary caches; no model loading, research, task QA or platform acceptance",
+  "location": "Connection details and exact remote paths supplied only in the current user conversation",
+  "search": {
+    "main_root_files_examined": 45957,
+    "roots_examined": [
+      "/root",
+      "/data",
+      "/mnt",
+      "/workspace",
+      "/opt",
+      "/tmp",
+      "/home",
+      "/media",
+      "/srv",
+      "/var/lib/docker",
+      "/var/cache"
+    ],
+    "excluded": "Credential and agent state directories, Git metadata, package environments and system libraries; directory symlinks inspected without duplicating their known targets",
+    "rf_exact_four_large_weights": "not_found_in_examined_paths",
+    "onedc_assets_tar_gz": "not_found_in_examined_paths",
+    "onedc_lambda46_core_weights": "not_found_in_examined_paths; reserved directory empty",
+    "docker_available": false
+  },
+  "onedc_auxiliary_caches": {
+    "manifest_reference": "auto0776/assets/onedc_assets_deep_audit.json#audit.manifest.files",
+    "files": [
+      {
+        "bytes": 244408911,
+        "sha256": "7be5be791159472b1fbf3c69796f7cb30dca7ad8466c2df70058c37116cdee02",
+        "matches": true,
+        "stable_during_read": true,
+        "seconds": 0.77,
+        "name": "alexnet-owt-7be5be79.pth"
+      },
+      {
+        "bytes": 553433881,
+        "sha256": "397923af8e79cdbb6a7127f12361acd7a2f83e06b05044ddf496e83de57a5bf0",
+        "matches": true,
+        "stable_during_read": true,
+        "seconds": 1.74,
+        "name": "vgg16-397923af.pth"
+      }
+    ],
+    "verified_bytes": 797842792,
+    "coverage": "Two auxiliary files only; full OneDC asset package still required"
+  },
+  "bifrost_shards": {
+    "manifest_reference": "auto0783/source/dependencies/checkpoint/public-tensor-manifest.json#checkpoint_shards",
+    "filenames_and_sizes_match": true,
+    "count": 6,
+    "bytes": 29663264600,
+    "sha256_reread_on_this_server": false,
+    "scope": "Metadata only on this server; earlier six-shard byte verification remains a separate record"
+  },
+  "credentials_or_private_links_published": false
+}
