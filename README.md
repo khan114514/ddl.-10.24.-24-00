@@ -1,8 +1,13 @@
 # 四题返修集中交接：492 / 505 / 776 / 783
 
+> 当前优先适用[2026-10-22扩展豁免](handoff/CURRENT_REVIEW_POLICY.md)：保留此前五项，新增QA05/H02联网及外部查表约束、H03当前镜像选择/交付依据、H05当前调用证据，并汇总到QA17。所列事项无需整改或补跑；旧说明中相冲突的补证要求由本口径覆盖，其他核心要求继续处理。豁免不表示实跑完成。
+
+
 更新：2026-10-22（Asia/Shanghai）。本仓库集中保存这四题的既有源码、返修进度、最新复核意见、证据和最新本地 AutoResearch Skill，便于统一接手。当前四题均有核心返修或待核项，尚未重新验收通过。
 
 **接手从 [四题操作说明](START_HERE.md) 开始，使用 [统一接手 Prompt](TAKEOVER_PROMPT.txt)。**
+
+新增文件：[完整豁免口径](handoff/CURRENT_REVIEW_POLICY.md) · [报告与判定示例](handoff/REPORTING_EXEMPTIONS.md) · [未填写的报告附录模板](handoff/REVIEW_POLICY_ADDENDUM_TEMPLATE.json)。四题目录各有 `CURRENT_REVIEW_POLICY.md`，说明如何覆盖旧返修意见。
 
 | 题号 | 题目 | 当前材料入口 | 最新返修意见 |
 |---|---|---|---|
@@ -21,7 +26,7 @@
 - [autoresearch-task-qa](skills/autoresearch-task-qa/SKILL.md)：只读内容质检。
 - [autoresearch-baseline-quality](skills/autoresearch-baseline-quality/SKILL.md)：Baseline 合理性专项。
 
-[V4 合同](skills/autoresearch/references/phase3-v4-contract.md)与 [2026-10-21 用户放宽口径](handoff/CURRENT_REVIEW_POLICY.md)一起生效。五套已与本机当前安装版逐文件核对，导出差异及哈希见 [技能来源清单](handoff/SKILL_SNAPSHOT.json)。辅助 systematic-debugging 也保留。
+[V4 合同](skills/autoresearch/references/phase3-v4-contract.md)与 [2026-10-22 用户扩展豁免](handoff/CURRENT_REVIEW_POLICY.md)一起生效。五套已与本机当前安装版逐文件核对，导出差异及哈希见 [技能来源清单](handoff/SKILL_SNAPSHOT.json)。辅助 systematic-debugging 也保留。
 
 本地规则已整合 V4，对应教程所称 0.3.10；**本仓库没有真实官方 0.3.10 发布包及独立格式/GPU/指纹工具**。随附旧工具保留实际身份，不能重命名冒充新版。详见 [工具版本](handoff/SKILL_VERSIONS.md)。
 

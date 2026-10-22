@@ -1,3 +1,5 @@
+> 当前三期内容口径：先读[2026-10-22扩展豁免](phase3-v4-contract.md#扩展豁免用户授权2026-10-22)。保留此前五项，新增QA05/H02联网及外部查表约束、H03内场镜像选择/交付依据、H05当前调用证据，并汇总到QA17。所列事项无需整改/补跑；未豁免核心问题继续核验。下文旧工具接口不覆盖本口径，原报告和冻结脚本保留原样，豁免PASS不表示实跑验证完成。
+
 # Skill Validation, 2026-10-02
 
 Latest Seed login continuation: default remote profile was created by the user's completed SSO flow. Thirteen behavior tests pass, including profile-key redaction/argv exclusion and sandbox failure preventing profile-key retrieval. Profile-based arkcli raw Responses returned SEED_PROFILE_OK, exit 0, 3.09731 seconds; remote Codex+Seed text-only turn returned CODEX_SEED_PROFILE_OK, exit 0, 13.67354 seconds. Evidence: `notes/remote_ark_logged_in_profile_probe_20261002/` and `notes/remote_codex_seed_logged_in_profile_probe_20261002/`. The Codex metadata fallback warning was retained. Fresh sandbox probe still failed with bwrap namespace permissions; no coding-method trajectory was claimed from these text tests.

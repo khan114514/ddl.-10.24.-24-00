@@ -1,0 +1,13 @@
+{
+  "policy_id": "user-exemptions-2026-10-22",
+  "status": "PASS",
+  "scope": "Changed/new publication documents, not task QA",
+  "implementation": "local-strict-protocol-extension/1",
+  "official_0310_tool": false,
+  "scanned_files": 85,
+  "scanned_bytes": 3134046,
+  "findings": [],
+  "skill_doc_pairs_match_declared_exports": 44,
+  "policy_links_broken": [],
+  "task_sources_raw_reports_and_frozen_scripts_unchanged": true
+}

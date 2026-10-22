@@ -1,4 +1,4 @@
-> 三期V4及用户2026-10-21更新：先读 [当前教程合同与优先级调整](phase3-v4-contract.md)。QA21 指纹/哈希差异、G02/G03 换卡影响补证、QA15 换卡耗时、QA17/H06 NOP、QA03/QA13 换卡重算可非阻断待补；本口径优先于下列旧工具细节。旧脚本结果保留原样，不冒充官方0.3.10或平台验收。
+> 当前三期内容口径：先读[2026-10-22扩展豁免](phase3-v4-contract.md#扩展豁免用户授权2026-10-22)。保留此前五项，新增QA05/H02联网及外部查表约束、H03内场镜像选择/交付依据、H05当前调用证据，并汇总到QA17。所列事项无需整改/补跑；未豁免核心问题继续核验。下文旧工具接口不覆盖本口径，原报告和冻结脚本保留原样，豁免PASS不表示实跑验证完成。
 
 # 复核输入与报告（schema 4）
 
@@ -87,9 +87,9 @@ harbor 必填 task_root（相对包根）、target_version、provider、version_
       "profile_basis": "目标 Harbor 版本独立 Verifier 规范及本题双 Dockerfile 构建入口"
     }
 
-teaching-task-root-v1与harbor-environment-v1的精确位置由程序计算，按docker-path-contract.md核对。custom另需dockerfile/build_context/runtime_task_root与adapter_evidence包内真实引用。未知动态语法可提交manual_resolution={summary,evidence}进行语义解释；确定源缺失、路径越界、Agent 复制最终私有评测材料或缺任一 Dockerfile，不能用人工pass覆盖。当前交付要求 Agent 与 Verifier 双 Dockerfile 独立构建，不能用预构建镜像替代。
+teaching-task-root-v1与harbor-environment-v1的精确位置由程序计算，按docker-path-contract.md核对。custom另需dockerfile/build_context/runtime_task_root与adapter_evidence包内真实引用。未知动态语法可提交manual_resolution={summary,evidence}进行语义解释；确定源缺失、路径越界、Agent 复制最终私有评测材料或缺任一 Dockerfile，不能用人工pass覆盖。前述为旧schema约束；当前V4允许复用Solver镜像，不强制双Dockerfile。10-22对已有Dockerfile而缺当前选镜/交付依据的事项另作豁免；不把旧schema当新版阻断条件。
 
-H01/H02 通过需引用选中 task.toml；H03 不能用未知 provider 通过。H06 若有当前题包版本的 NOP Trial：核对 config.json 与 result.json 的 Agent 为 nop、reward 与非空日志、任务及版本对应关系、separate 模式、异常/结束状态。版本关联可引用已有配置、日志或专家说明填写 trial_task_binding。缺记录时 runtime_status=not_run，H06 记非阻断待补；其他 Agent Trial 只能作补充材料，不冒充 NOP。可复用平台已有同版本 NOP 记录；0 分本身不判失败，Oracle 非必交。
+H01/H02 通过需引用选中 task.toml；H03仅因当前provider/镜像选择依据未核而缺证、且已有Dockerfile时，按10-22豁免出具用户口径结论，provider仍写unknown，不伪填平台信息。H06 若有当前题包版本的 NOP Trial：核对 config.json 与 result.json 的 Agent 为 nop、reward 与非空日志、任务及版本对应关系、separate 模式、异常/结束状态。版本关联可引用已有配置、日志或专家说明填写 trial_task_binding。缺记录时 runtime_status=not_run，H06 记非阻断待补；其他 Agent Trial 只能作补充材料，不冒充 NOP。可复用平台已有同版本 NOP 记录；0 分本身不判失败，Oracle 非必交。
 
 还需填写 `harbor.hidden_review`，而不是检查固定目录名：
 
@@ -126,6 +126,10 @@ TXT/Markdown顺序：
 3. 三项内容门结论。
 4. 双轨迹迭代概况与格式建议。
 5. 总结论、完成度、Harbor静态/运行状态和21行“检查项/是否通过/原因”表。
-6. 可直接复制给专家的退回说明：逐核心问题列事实、证据、原因、修复、验收材料。五类放宽事项单列“非阻断待补”，不给出必须补完才通过的要求；未核验保持未核验，已确认失败与待补证分开表述，不推测动机。
+6. 可直接复制给专家的退回说明：逐核心问题列事实、证据、原因、修复、验收材料。当前明确豁免事项单列“非阻断待补”，不给出必须补完才通过的要求；未核验保持未核验，已确认失败与待补证分开表述，不推测动机。
 
 report.txt与report.md内容相同，report.json保存全部证据与computed；return_to_expert.txt独立保存专家退回说明。通过时可写无需退回，但不能在未完成时这样写。批量汇总必须保留三门和完成度，不接受schema字段缺失的旧PASS。
+
+## 当前用户口径豁免附录
+
+保留原始工具报告另写附录，记录policy_id=`user-exemptions-2026-10-22`、真实输入ZIP SHA256、原始报告引用、逐条finding的QA/H编号/具体事实/证据/原状态/本次分类及豁免依据、未豁免核心问题、当前用户口径总评和实际运行状态。每条分类区分waived、core_failure、core_pending、satisfied；旧schema不新增假状态或假字段。仅剩豁免且其余适用检查完成时，总评可为“豁免通过（PASS），所列事项无需整改”。仍有核心失败或决定性缺证时不得整体PASS。豁免附录不能代替两次独立审查或平台验证。

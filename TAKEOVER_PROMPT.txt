@@ -1,3 +1,5 @@
+当前政策：先读handoff/CURRENT_REVIEW_POLICY.md（user-exemptions-2026-10-22）和handoff/REPORTING_EXEMPTIONS.md。新增网络/查表、镜像选择/交付和当前调用证据豁免已并入；明确豁免事项无需整改/补跑，其他核心问题仍须闭环。
+
 请接手本仓库 auto0492、auto0505、auto0776、auto0783 四题返修。先读根 AGENTS.md、README.md、START_HERE.md、handoff/FOUR_TASKS.json 和顶层五套 AutoResearch Skill，按各题 repair_plan.md 及两份最新独立报告继续已有工作，不重新认领、不重复已经有效完成的验证。
 
 本轮上传集中保存了源码、原始证据、已有修复、最新返修意见和最新本地 Skill。先运行 python3 release_tools/verify_handoff.py --restore-empty-dirs，再运行 python3 auto0776/tools/verify_handoff.py；这只是交接完整性校验。DD/Bifrost 完整大包按 DOWNLOADS.md 下载并逐项验证大小/SHA256。RF/OneDC 缺少的大模型资产按各题部署说明取得。不可把源码视图误认为完整运行资产。

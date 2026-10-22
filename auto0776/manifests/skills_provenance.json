@@ -1,5 +1,5 @@
 {
-  "rules": "2026-10-21 V4 plus user-authorized five-category nonblocking priority adjustment; official 0.3.10 package absent",
+  "rules": "2026-10-22 expanded user exemptions, preserving 2026-10-21 five categories; official 0.3.10 package absent",
   "files": [
     {
       "path": "skills/autoresearch/UPSTREAM-LICENSE",
@@ -13,8 +13,8 @@
       "path": "skills/autoresearch/SKILL.md",
       "source_skill": "autoresearch",
       "source_relative_path": "SKILL.md",
-      "source_sha256": "c787bdbb570cbc2fc5462f6ef6facb93b94a9ebeb0ee7efa8075c9b0742049bf",
-      "published_sha256": "c787bdbb570cbc2fc5462f6ef6facb93b94a9ebeb0ee7efa8075c9b0742049bf",
+      "source_sha256": "b8b55d27838387297ed4860bc71a520cacef4c0fce6de5f6a351dbb7b7c582b0",
+      "published_sha256": "b8b55d27838387297ed4860bc71a520cacef4c0fce6de5f6a351dbb7b7c582b0",
       "transformation": null
     },
     {
@@ -45,9 +45,9 @@
       "path": "skills/autoresearch/references/phase3-v4-contract.md",
       "source_skill": "autoresearch",
       "source_relative_path": "references/phase3-v4-contract.md",
-      "source_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
-      "published_sha256": "916e4a306d9f1fb224eb94fcd89285bcf800372b64d99bd36b8cfa876cb11da6",
-      "transformation": "Portable home/runtime aliases; user-authorized 2026-10-21 five-category nonblocking policy sync"
+      "source_sha256": "c39665a31126f21dcce386ea197171e1290e216c2174d6bbd0b1b15b5659b164",
+      "published_sha256": "b57f9ef96cdc41e2bf7542ed9358428f7926f6ed741741f5f4c3440a84bf4aba",
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch/references/skill-routing.md",
@@ -93,25 +93,25 @@
       "path": "skills/autoresearch-manager/SKILL.md",
       "source_skill": "autoresearch-manager",
       "source_relative_path": "SKILL.md",
-      "source_sha256": "9dd9f8bc7422e7a9ffe898e2e3e0027f91bef0e255f32650333add79960745cf",
-      "published_sha256": "71ca17976a0e4d21aacfa73b317942ad0811f16407c7799e5201ee178c8e7bb8",
-      "transformation": "Portable home/runtime aliases; user-authorized 2026-10-21 five-category nonblocking policy sync"
+      "source_sha256": "b7be9540db01d86207d3123788a3c143c3dd2a1bd26a6c6e5be34b3401990729",
+      "published_sha256": "cf5d9437bb8b74facc767c84d5d51268f1c45c13b8dbae795aa035428ea25596",
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-manager/references/runtime-contract.md",
       "source_skill": "autoresearch-manager",
       "source_relative_path": "references/runtime-contract.md",
-      "source_sha256": "70a8c9e9417c4348b11d6f14df1a34a5f16d47fd05977faed792e40c31407e4d",
-      "published_sha256": "70a8c9e9417c4348b11d6f14df1a34a5f16d47fd05977faed792e40c31407e4d",
+      "source_sha256": "d2eef426d11c4319d77eb9f93ddeafe76a8da880d239bfc45acc2f9eac9c15ce",
+      "published_sha256": "d2eef426d11c4319d77eb9f93ddeafe76a8da880d239bfc45acc2f9eac9c15ce",
       "transformation": null
     },
     {
       "path": "skills/autoresearch-manager/references/phase3-v4-contract.md",
       "source_skill": "autoresearch-manager",
       "source_relative_path": "references/phase3-v4-contract.md",
-      "source_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
-      "published_sha256": "916e4a306d9f1fb224eb94fcd89285bcf800372b64d99bd36b8cfa876cb11da6",
-      "transformation": "Portable home/runtime aliases; user-authorized 2026-10-21 five-category nonblocking policy sync"
+      "source_sha256": "c39665a31126f21dcce386ea197171e1290e216c2174d6bbd0b1b15b5659b164",
+      "published_sha256": "b57f9ef96cdc41e2bf7542ed9358428f7926f6ed741741f5f4c3440a84bf4aba",
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-manager/agents/openai.yaml",
@@ -485,9 +485,9 @@
       "path": "skills/autoresearch-remote-cli/SKILL.md",
       "source_skill": "autoresearch-remote-cli",
       "source_relative_path": "SKILL.md",
-      "source_sha256": "77540b895a09628750e884328f4cd0d37f26134a0bb2259ed512bf013b9c312c",
-      "published_sha256": "cb5882a7082d43c50855c06703931b455ae775cd77f35b8ce2050005337de50d",
-      "transformation": "Portable home/runtime aliases; user-authorized 2026-10-21 five-category nonblocking policy sync"
+      "source_sha256": "5fe923e0d8320d05543a3238f5e3026f846519483c27bc93a7e5cd6178c325dd",
+      "published_sha256": "bf82f1c2b1a8e5124d71e3201b01c54f1ef1965b194c26f2ddb462436e7afeee",
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-remote-cli/references/requirements.txt",
@@ -503,36 +503,31 @@
       "source_relative_path": "references/server-context.md",
       "source_sha256": "673f463dcaeb659d48a03c8a11edd43f190b55f18c139a4b7df521711959242f",
       "published_sha256": "67ed903ea665fc474ef8af30289518fde10397df97026668e0397b5fc48d1f18",
-      "transformation": [
-        "portable author-home and historical host substitution; no policy change",
-        "historical author-side root path replaced by TRUSTED_RUNTIME_ROOT placeholder; legacy helpers require explicit reconfiguration"
-      ]
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-remote-cli/references/validation.md",
       "source_skill": "autoresearch-remote-cli",
       "source_relative_path": "references/validation.md",
-      "source_sha256": "464bd0f7e65e395f77692ef6d0674ded33ea50362164b269a8d72bdeae2b53c4",
-      "published_sha256": "c036b569d9a121344cd62e04eeb3baa8d390dd1569ce9d378e75877491799625",
-      "transformation": [
-        "historical author-side root path replaced by TRUSTED_RUNTIME_ROOT placeholder; legacy helpers require explicit reconfiguration"
-      ]
+      "source_sha256": "dd3ed3a1a35a0933cc0f82464ea84cdf92f82ca5ba675c3af2967fe51fa1016f",
+      "published_sha256": "dd114fadb3b3654c8d31852e72b7bb6f3837f676f5738dd68a9d8f59588df1ff",
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-remote-cli/references/workflow.md",
       "source_skill": "autoresearch-remote-cli",
       "source_relative_path": "references/workflow.md",
-      "source_sha256": "9bf1939c8f612e067b0831cbe7ab7c89594878a73c01d50654d78ee319043426",
-      "published_sha256": "2d84806b027637e5eda0c91009972d582ecc70546349196685b674485ab01a07",
-      "transformation": "Portable home/runtime aliases; user-authorized 2026-10-21 five-category nonblocking policy sync"
+      "source_sha256": "e4897882b6e0f71630e1c02ad6fb1ffe20b0cc45683771dfa5fc636d5d05ec51",
+      "published_sha256": "43b87ca47cbf6f3cc2c9d51dd65c3ba9e90e0f63d584c5eca4906809ae4f5559",
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-remote-cli/references/phase3-v4-contract.md",
       "source_skill": "autoresearch-remote-cli",
       "source_relative_path": "references/phase3-v4-contract.md",
-      "source_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
-      "published_sha256": "916e4a306d9f1fb224eb94fcd89285bcf800372b64d99bd36b8cfa876cb11da6",
-      "transformation": "Portable home/runtime aliases; user-authorized 2026-10-21 five-category nonblocking policy sync"
+      "source_sha256": "c39665a31126f21dcce386ea197171e1290e216c2174d6bbd0b1b15b5659b164",
+      "published_sha256": "b57f9ef96cdc41e2bf7542ed9358428f7926f6ed741741f5f4c3440a84bf4aba",
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-remote-cli/agents/openai.yaml",
@@ -556,10 +551,7 @@
       "source_relative_path": "scripts/control.py",
       "source_sha256": "b0d45396ada16be3fc49db5e3aa1af2409bebed004ecf8f85cca09b3448ffdcd",
       "published_sha256": "ded8aa80bf238b40274504c0a6b8e19c7466a7c9576df184f5c68a84658f1e8e",
-      "transformation": [
-        "portable author-home and historical host substitution; no policy change",
-        "historical author-side root path replaced by TRUSTED_RUNTIME_ROOT placeholder; legacy helpers require explicit reconfiguration"
-      ]
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-remote-cli/scripts/test_remote_worker.py",
@@ -575,16 +567,14 @@
       "source_relative_path": "scripts/remote_worker.py",
       "source_sha256": "f85c5e53fec750615c7b6d03b4c60f9f2915ad267fab43b0264e692d4306f4d3",
       "published_sha256": "68e0021622c64af5c22a279e7df9c9816738aee3fd17f6ad9c0c99de0f9fcb5a",
-      "transformation": [
-        "historical author-side root path replaced by TRUSTED_RUNTIME_ROOT placeholder; legacy helpers require explicit reconfiguration"
-      ]
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-task-qa/SKILL.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "SKILL.md",
-      "source_sha256": "2d112c47371004391fc5fe325d7a944988fc0e857428f53a18ab9c3ae67595f4",
-      "published_sha256": "2d112c47371004391fc5fe325d7a944988fc0e857428f53a18ab9c3ae67595f4",
+      "source_sha256": "df2fa46c96ef36552e035e29914970dafb631f838a8889ba9cc57ad3116c2c97",
+      "published_sha256": "df2fa46c96ef36552e035e29914970dafb631f838a8889ba9cc57ad3116c2c97",
       "transformation": null
     },
     {
@@ -615,64 +605,64 @@
       "path": "skills/autoresearch-task-qa/references/implementation-report.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "references/implementation-report.md",
-      "source_sha256": "ded2399bd0998912fe5c5245c2fd3621f62a2c1aba35fed2f74597c3144ad34e",
-      "published_sha256": "ded2399bd0998912fe5c5245c2fd3621f62a2c1aba35fed2f74597c3144ad34e",
+      "source_sha256": "0f526f00cc63adfb7d4cf14146f6aae4572b5fbdc0b88f10b59f3b6aefa6e71c",
+      "published_sha256": "0f526f00cc63adfb7d4cf14146f6aae4572b5fbdc0b88f10b59f3b6aefa6e71c",
       "transformation": null
     },
     {
       "path": "skills/autoresearch-task-qa/references/submission-format.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "references/submission-format.md",
-      "source_sha256": "800e0db16ad8482fdd1625598379694aa0ac7c7ec078100fcee1704760988008",
-      "published_sha256": "800e0db16ad8482fdd1625598379694aa0ac7c7ec078100fcee1704760988008",
+      "source_sha256": "85147d4d505fec39e3f279a093f8e1946b02f83bccae2a7726ce942839c1894e",
+      "published_sha256": "85147d4d505fec39e3f279a093f8e1946b02f83bccae2a7726ce942839c1894e",
       "transformation": null
     },
     {
       "path": "skills/autoresearch-task-qa/references/precheck-policy.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "references/precheck-policy.md",
-      "source_sha256": "cfa2b6d45a8267782eadf1fcecaf20a05787ceced250a9a8b642a2ad0f68ba7f",
-      "published_sha256": "cfa2b6d45a8267782eadf1fcecaf20a05787ceced250a9a8b642a2ad0f68ba7f",
+      "source_sha256": "06bbe94fb552241c681ba5423177fe899e7ad2cd8d1a86821e3ec875b98d116f",
+      "published_sha256": "06bbe94fb552241c681ba5423177fe899e7ad2cd8d1a86821e3ec875b98d116f",
       "transformation": null
     },
     {
       "path": "skills/autoresearch-task-qa/references/research-quality.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "references/research-quality.md",
-      "source_sha256": "ea1fd85d6b66b48463a6ec4b253c12c0a2d5c3b4ae0d832e2e047c4c7204781d",
-      "published_sha256": "ea1fd85d6b66b48463a6ec4b253c12c0a2d5c3b4ae0d832e2e047c4c7204781d",
+      "source_sha256": "c5522871ff2b852e1dbfe8af12324f2bde918b54dae8e20fefc7eb285e67b983",
+      "published_sha256": "c5522871ff2b852e1dbfe8af12324f2bde918b54dae8e20fefc7eb285e67b983",
       "transformation": null
     },
     {
       "path": "skills/autoresearch-task-qa/references/phase3-v4-contract.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "references/phase3-v4-contract.md",
-      "source_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
-      "published_sha256": "916e4a306d9f1fb224eb94fcd89285bcf800372b64d99bd36b8cfa876cb11da6",
-      "transformation": "Portable home/runtime aliases; user-authorized 2026-10-21 five-category nonblocking policy sync"
+      "source_sha256": "c39665a31126f21dcce386ea197171e1290e216c2174d6bbd0b1b15b5659b164",
+      "published_sha256": "b57f9ef96cdc41e2bf7542ed9358428f7926f6ed741741f5f4c3440a84bf4aba",
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-task-qa/references/docker-path-contract.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "references/docker-path-contract.md",
-      "source_sha256": "64e0ff4f5ef3ceea5449d371edc5303a6dde1607aafcbfc7aaa246dd5f4ef724",
-      "published_sha256": "64e0ff4f5ef3ceea5449d371edc5303a6dde1607aafcbfc7aaa246dd5f4ef724",
+      "source_sha256": "20f1261223b4b1756eeaeca1c6e956a78ae79d2ed1666f3a5c8cfbaf82a692dc",
+      "published_sha256": "20f1261223b4b1756eeaeca1c6e956a78ae79d2ed1666f3a5c8cfbaf82a692dc",
       "transformation": null
     },
     {
       "path": "skills/autoresearch-task-qa/references/source-alignment.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "references/source-alignment.md",
-      "source_sha256": "23af9a34c4b329ea0a4bb12e20f1c0df6fc2b4ab94d8308ba1c35fc77ea2a64e",
-      "published_sha256": "23af9a34c4b329ea0a4bb12e20f1c0df6fc2b4ab94d8308ba1c35fc77ea2a64e",
+      "source_sha256": "593e892164421afcdd8852a261056119bcf8a751ce252b7b74e62aaa7f62be29",
+      "published_sha256": "593e892164421afcdd8852a261056119bcf8a751ce252b7b74e62aaa7f62be29",
       "transformation": null
     },
     {
       "path": "skills/autoresearch-task-qa/references/implementation-policy.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "references/implementation-policy.md",
-      "source_sha256": "07f9e868948dc7a20da25f3e46c79b4e5ebd4aebf1573a2652e1b7cbca67433d",
-      "published_sha256": "07f9e868948dc7a20da25f3e46c79b4e5ebd4aebf1573a2652e1b7cbca67433d",
+      "source_sha256": "6b75c30385d0177d29f5807ab578611d5a619faff3215bdeea48e7f2d053d827",
+      "published_sha256": "6b75c30385d0177d29f5807ab578611d5a619faff3215bdeea48e7f2d053d827",
       "transformation": null
     },
     {
@@ -687,16 +677,16 @@
       "path": "skills/autoresearch-task-qa/references/harbor-harness.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "references/harbor-harness.md",
-      "source_sha256": "7d362c047a10fee4ed96cfe56389a0d18ade7ad0c56959908d421acc8aeee985",
-      "published_sha256": "7d362c047a10fee4ed96cfe56389a0d18ade7ad0c56959908d421acc8aeee985",
+      "source_sha256": "8b50bdad22b8593e45c6aca3a8561b49366cf82be5e30402f51f64307e59da43",
+      "published_sha256": "8b50bdad22b8593e45c6aca3a8561b49366cf82be5e30402f51f64307e59da43",
       "transformation": null
     },
     {
       "path": "skills/autoresearch-task-qa/references/exposure-manifest.md",
       "source_skill": "autoresearch-task-qa",
       "source_relative_path": "references/exposure-manifest.md",
-      "source_sha256": "96f42fe852057b89ff428cd633d72b4bc3c7c8afe3dca71e7cb1659ac726df0c",
-      "published_sha256": "96f42fe852057b89ff428cd633d72b4bc3c7c8afe3dca71e7cb1659ac726df0c",
+      "source_sha256": "b1d76d2d5a4e8103887deb8f2232fc68d5affa7e2d14cd90284fbf8a36d2978c",
+      "published_sha256": "b1d76d2d5a4e8103887deb8f2232fc68d5affa7e2d14cd90284fbf8a36d2978c",
       "transformation": null
     },
     {
@@ -855,8 +845,8 @@
       "path": "skills/autoresearch-baseline-quality/SKILL.md",
       "source_skill": "autoresearch-baseline-quality",
       "source_relative_path": "SKILL.md",
-      "source_sha256": "980e47e99c7ffbb9784800d53fa5ba4c84ef07cab4e747f917170060530e0013",
-      "published_sha256": "980e47e99c7ffbb9784800d53fa5ba4c84ef07cab4e747f917170060530e0013",
+      "source_sha256": "660b8306e0fc636d8cf44af5f18cdc5e9fe789ce9b0d521571fc9b8346730db8",
+      "published_sha256": "660b8306e0fc636d8cf44af5f18cdc5e9fe789ce9b0d521571fc9b8346730db8",
       "transformation": null
     },
     {
@@ -887,9 +877,9 @@
       "path": "skills/autoresearch-baseline-quality/references/phase3-v4-contract.md",
       "source_skill": "autoresearch-baseline-quality",
       "source_relative_path": "references/phase3-v4-contract.md",
-      "source_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
-      "published_sha256": "916e4a306d9f1fb224eb94fcd89285bcf800372b64d99bd36b8cfa876cb11da6",
-      "transformation": "Portable home/runtime aliases; user-authorized 2026-10-21 five-category nonblocking policy sync"
+      "source_sha256": "c39665a31126f21dcce386ea197171e1290e216c2174d6bbd0b1b15b5659b164",
+      "published_sha256": "b57f9ef96cdc41e2bf7542ed9358428f7926f6ed741741f5f4c3440a84bf4aba",
+      "transformation": "Portable export, policy unchanged; previous provenance archived in root handoff/upstream."
     },
     {
       "path": "skills/autoresearch-baseline-quality/agents/openai.yaml",

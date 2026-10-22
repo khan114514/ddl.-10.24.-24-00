@@ -1,0 +1,123 @@
+{
+  "policy_id": "user-exemptions-2026-10-22",
+  "scope": "Documentation and handoff update only",
+  "local_skill_documents_updated": 22,
+  "published_skill_copies": [
+    "skills",
+    "auto0776/skills"
+  ],
+  "raw_reports_task_sources_frozen_scripts_changed": false,
+  "experiments_started": false,
+  "records": [
+    {
+      "skill_path": "autoresearch-baseline-quality/SKILL.md",
+      "before_sha256": "980e47e99c7ffbb9784800d53fa5ba4c84ef07cab4e747f917170060530e0013",
+      "current_sha256": "660b8306e0fc636d8cf44af5f18cdc5e9fe789ce9b0d521571fc9b8346730db8"
+    },
+    {
+      "skill_path": "autoresearch-baseline-quality/references/phase3-v4-contract.md",
+      "before_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
+      "current_sha256": "c39665a31126f21dcce386ea197171e1290e216c2174d6bbd0b1b15b5659b164"
+    },
+    {
+      "skill_path": "autoresearch-manager/SKILL.md",
+      "before_sha256": "9dd9f8bc7422e7a9ffe898e2e3e0027f91bef0e255f32650333add79960745cf",
+      "current_sha256": "b7be9540db01d86207d3123788a3c143c3dd2a1bd26a6c6e5be34b3401990729"
+    },
+    {
+      "skill_path": "autoresearch-manager/references/phase3-v4-contract.md",
+      "before_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
+      "current_sha256": "c39665a31126f21dcce386ea197171e1290e216c2174d6bbd0b1b15b5659b164"
+    },
+    {
+      "skill_path": "autoresearch-manager/references/runtime-contract.md",
+      "before_sha256": "70a8c9e9417c4348b11d6f14df1a34a5f16d47fd05977faed792e40c31407e4d",
+      "current_sha256": "d2eef426d11c4319d77eb9f93ddeafe76a8da880d239bfc45acc2f9eac9c15ce"
+    },
+    {
+      "skill_path": "autoresearch-remote-cli/SKILL.md",
+      "before_sha256": "77540b895a09628750e884328f4cd0d37f26134a0bb2259ed512bf013b9c312c",
+      "current_sha256": "5fe923e0d8320d05543a3238f5e3026f846519483c27bc93a7e5cd6178c325dd"
+    },
+    {
+      "skill_path": "autoresearch-remote-cli/references/phase3-v4-contract.md",
+      "before_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
+      "current_sha256": "c39665a31126f21dcce386ea197171e1290e216c2174d6bbd0b1b15b5659b164"
+    },
+    {
+      "skill_path": "autoresearch-remote-cli/references/validation.md",
+      "before_sha256": "464bd0f7e65e395f77692ef6d0674ded33ea50362164b269a8d72bdeae2b53c4",
+      "current_sha256": "dd3ed3a1a35a0933cc0f82464ea84cdf92f82ca5ba675c3af2967fe51fa1016f"
+    },
+    {
+      "skill_path": "autoresearch-remote-cli/references/workflow.md",
+      "before_sha256": "9bf1939c8f612e067b0831cbe7ab7c89594878a73c01d50654d78ee319043426",
+      "current_sha256": "e4897882b6e0f71630e1c02ad6fb1ffe20b0cc45683771dfa5fc636d5d05ec51"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/SKILL.md",
+      "before_sha256": "2d112c47371004391fc5fe325d7a944988fc0e857428f53a18ab9c3ae67595f4",
+      "current_sha256": "df2fa46c96ef36552e035e29914970dafb631f838a8889ba9cc57ad3116c2c97"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/references/docker-path-contract.md",
+      "before_sha256": "64e0ff4f5ef3ceea5449d371edc5303a6dde1607aafcbfc7aaa246dd5f4ef724",
+      "current_sha256": "20f1261223b4b1756eeaeca1c6e956a78ae79d2ed1666f3a5c8cfbaf82a692dc"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/references/exposure-manifest.md",
+      "before_sha256": "96f42fe852057b89ff428cd633d72b4bc3c7c8afe3dca71e7cb1659ac726df0c",
+      "current_sha256": "b1d76d2d5a4e8103887deb8f2232fc68d5affa7e2d14cd90284fbf8a36d2978c"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/references/harbor-harness.md",
+      "before_sha256": "7d362c047a10fee4ed96cfe56389a0d18ade7ad0c56959908d421acc8aeee985",
+      "current_sha256": "8b50bdad22b8593e45c6aca3a8561b49366cf82be5e30402f51f64307e59da43"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/references/implementation-policy.md",
+      "before_sha256": "07f9e868948dc7a20da25f3e46c79b4e5ebd4aebf1573a2652e1b7cbca67433d",
+      "current_sha256": "6b75c30385d0177d29f5807ab578611d5a619faff3215bdeea48e7f2d053d827"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/references/implementation-report.md",
+      "before_sha256": "ded2399bd0998912fe5c5245c2fd3621f62a2c1aba35fed2f74597c3144ad34e",
+      "current_sha256": "0f526f00cc63adfb7d4cf14146f6aae4572b5fbdc0b88f10b59f3b6aefa6e71c"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/references/phase3-v4-contract.md",
+      "before_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
+      "current_sha256": "c39665a31126f21dcce386ea197171e1290e216c2174d6bbd0b1b15b5659b164"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/references/precheck-policy.md",
+      "before_sha256": "cfa2b6d45a8267782eadf1fcecaf20a05787ceced250a9a8b642a2ad0f68ba7f",
+      "current_sha256": "06bbe94fb552241c681ba5423177fe899e7ad2cd8d1a86821e3ec875b98d116f"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/references/research-quality.md",
+      "before_sha256": "ea1fd85d6b66b48463a6ec4b253c12c0a2d5c3b4ae0d832e2e047c4c7204781d",
+      "current_sha256": "c5522871ff2b852e1dbfe8af12324f2bde918b54dae8e20fefc7eb285e67b983"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/references/source-alignment.md",
+      "before_sha256": "23af9a34c4b329ea0a4bb12e20f1c0df6fc2b4ab94d8308ba1c35fc77ea2a64e",
+      "current_sha256": "593e892164421afcdd8852a261056119bcf8a751ce252b7b74e62aaa7f62be29"
+    },
+    {
+      "skill_path": "autoresearch-task-qa/references/submission-format.md",
+      "before_sha256": "800e0db16ad8482fdd1625598379694aa0ac7c7ec078100fcee1704760988008",
+      "current_sha256": "85147d4d505fec39e3f279a093f8e1946b02f83bccae2a7726ce942839c1894e"
+    },
+    {
+      "skill_path": "autoresearch/SKILL.md",
+      "before_sha256": "c787bdbb570cbc2fc5462f6ef6facb93b94a9ebeb0ee7efa8075c9b0742049bf",
+      "current_sha256": "b8b55d27838387297ed4860bc71a520cacef4c0fce6de5f6a351dbb7b7c582b0"
+    },
+    {
+      "skill_path": "autoresearch/references/phase3-v4-contract.md",
+      "before_sha256": "5f12b1232bf7aee002d19042c8e5f746e071fd65c4b8b9973290e1bfea3c883c",
+      "current_sha256": "c39665a31126f21dcce386ea197171e1290e216c2174d6bbd0b1b15b5659b164"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+当前政策优先：user-exemptions-2026-10-22，先读CURRENT_REVIEW_POLICY.md及REPORTING_EXEMPTIONS.md；不仅原五项，新增联网/查表、镜像选择/交付、当前调用证据及QA17汇总豁免均无需整改或补跑。
+
 请继续本仓库的 auto0505 返修。先读根 AGENTS.md 和 handoff/START_HERE.md，再读取实际 V4 QA Skill。用户要求先用 A100、H20 暂缓，其余问题全部修复。
 
 优先读 handoff/CURRENT_REVIEW_POLICY.md：用户已将QA21指纹/哈希差异、G02/G03换卡影响补证、QA15换卡耗时、QA17/H06 NOP、QA03/QA13换卡重算改为非阻断待补/待核，不单独判退、强制补跑或进入返修循环。其他核心要求保留。

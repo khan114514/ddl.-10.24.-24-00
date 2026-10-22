@@ -1,5 +1,8 @@
 # 四题统一接手说明
 
+> 当前优先适用[2026-10-22扩展豁免](handoff/CURRENT_REVIEW_POLICY.md)：保留此前五项，新增QA05/H02联网及外部查表约束、H03当前镜像选择/交付依据、H05当前调用证据，并汇总到QA17。所列事项无需整改或补跑；旧说明中相冲突的补证要求由本口径覆盖，其他核心要求继续处理。豁免不表示实跑完成。
+
+
 本次把既有工作集中到一个仓库，不重新认领题目。先读 [当前规则](handoff/CURRENT_REVIEW_POLICY.md)、[V4 合同](skills/autoresearch/references/phase3-v4-contract.md)，再核对 [四题状态清单](handoff/FOUR_TASKS.json)。四题最新静态复核均为 NOT_READY；不要把交接完整性通过当作题目 PASS。
 
 ## 492 / DD

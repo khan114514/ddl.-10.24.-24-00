@@ -5,6 +5,9 @@ description: Prepare and execute authorized AutoResearch work over SSH, includin
 
 # AutoResearch Remote CLI
 
+The user-authorized [2026-10-22 exemptions](references/phase3-v4-contract.md#扩展豁免用户授权2026-10-22) are current: retain the earlier five categories and add QA05/H02 network and external-lookup constraint gaps, H03 current image-selection/delivery evidence, H05 current invocation evidence, and their QA17 aggregation. These listed issues require no corrective work or extra runs. Permit a clearly labeled exemption PASS only when all other applicable core checks are satisfied. Preserve unverified runtime status and original reports/tools; this update starts no experiments or paused tasks.
+
+
 Use SSH and task-specific CLIs for authorized remote work. Skill maintenance does not start old tasks, resume a pause, spend model tokens or launch long trajectories.
 
 ## Current requirements

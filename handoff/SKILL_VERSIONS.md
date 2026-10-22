@@ -1,5 +1,8 @@
 # Skill 与工具身份
 
+> 当前优先适用[2026-10-22扩展豁免](CURRENT_REVIEW_POLICY.md)及[报告口径](REPORTING_EXEMPTIONS.md)。此前五项与新增网络/外部查表、镜像选择/交付、当前调用证据及QA17汇总范围均适用；所列事项无需整改或补跑。下文旧要求冲突时由此覆盖，其他核心要求保留。
+
+
 随仓库提供的最终本地规则入口为 `skills/autoresearch-task-qa/SKILL.md`。它和 autoresearch/manager/remote-cli 的 V4 合同已整合用户2026-10-21教程；**它不是官方0.3.10发布包**。
 
 已同步用户2026-10-21的[五项非阻断优先级调整](CURRENT_REVIEW_POLICY.md)，五个主Skill及各自V4合同、执行/报告参考共20份文档更新。旧冻结QA脚本和旧结果未修改。旧工具fail/manual/NOT_READY与本次用户口径结论分列；可以“通过（含放宽待补项）”，不因仅有这五项而强制NOP、返修或补跑。

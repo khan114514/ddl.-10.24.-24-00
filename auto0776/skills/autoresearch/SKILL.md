@@ -5,13 +5,15 @@ license: MIT
 metadata:
   upstream-version: 1.0.0
   author: Orchestra Research
-  local-rules: phase3-tutorial-v4-2026-10-21
+  local-rules: phase3-tutorial-v4-user-exemptions-2026-10-22
   tags: [Autonomous Research, Two-Loop Architecture, Experiment Orchestration, Research Synthesis, Project Management]
 ---
 
 # Autoresearch
 
-三期任务同时采用用户 2026-10-21 的[当前优先级调整](references/phase3-v4-contract.md#当前优先级调整用户授权2026-10-21)：QA21 指纹/哈希差异、G02/G03 换卡影响补证、QA15 换卡耗时、QA17/H06 NOP、QA03/QA13 换卡重算均可非阻断待补。其余核心要求照常审查；未核验不得声称已验证。
+用户2026-10-22的[扩展豁免](references/phase3-v4-contract.md#扩展豁免用户授权2026-10-22)是当前口径：保留10-21五项放宽，新增QA05/H02联网及外部查表约束、H03当前内场镜像选择/交付依据、H05当前调用证据，并扩大QA17的相关汇总豁免。所列事项无需新增实验或整改；其余检查满足时可写“豁免通过（PASS）”。未豁免核心问题仍须处理，未运行仍如实标未验证；旧报告/冻结工具不改，本次更新不启动实验或恢复暂停任务。
+
+三期任务同时采用此前2026-10-21的[基础放宽（现由上段扩展）](references/phase3-v4-contract.md#当前优先级调整用户授权2026-10-21)：QA21 指纹/哈希差异、G02/G03 换卡影响补证、QA15 换卡耗时、QA17/H06 NOP、QA03/QA13 换卡重算均可非阻断待补。其余核心要求照常审查；未核验不得声称已验证。
 
 ## Choose the workflow first
 

@@ -1,0 +1,113 @@
+{
+  "scope": "Skill frontmatter/scaffold validation only, no task QA or runtime acceptance",
+  "policy_id": "user-exemptions-2026-10-22",
+  "python_version": "3.12.14",
+  "pyyaml_version": "6.0.3",
+  "checks": [
+    {
+      "copy": "installed",
+      "skill": "autoresearch",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "installed",
+      "skill": "autoresearch-manager",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "installed",
+      "skill": "autoresearch-remote-cli",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "installed",
+      "skill": "autoresearch-task-qa",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "installed",
+      "skill": "autoresearch-baseline-quality",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "repository",
+      "skill": "autoresearch",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "repository",
+      "skill": "autoresearch-manager",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "repository",
+      "skill": "autoresearch-remote-cli",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "repository",
+      "skill": "autoresearch-task-qa",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "repository",
+      "skill": "autoresearch-baseline-quality",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "onedc_repository",
+      "skill": "autoresearch",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "onedc_repository",
+      "skill": "autoresearch-manager",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "onedc_repository",
+      "skill": "autoresearch-remote-cli",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "onedc_repository",
+      "skill": "autoresearch-task-qa",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    },
+    {
+      "copy": "onedc_repository",
+      "skill": "autoresearch-baseline-quality",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "stderr_empty": true
+    }
+  ]
+}

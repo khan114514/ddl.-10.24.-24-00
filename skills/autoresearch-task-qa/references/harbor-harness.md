@@ -1,4 +1,4 @@
-> 三期V4及用户2026-10-21更新：先读 [当前教程合同与优先级调整](phase3-v4-contract.md)。QA21 指纹/哈希差异、G02/G03 换卡影响补证、QA15 换卡耗时、QA17/H06 NOP、QA03/QA13 换卡重算可非阻断待补；本口径优先于下列旧工具细节。旧脚本结果保留原样，不冒充官方0.3.10或平台验收。
+> 当前三期内容口径：先读[2026-10-22扩展豁免](phase3-v4-contract.md#扩展豁免用户授权2026-10-22)。保留此前五项，新增QA05/H02联网及外部查表约束、H03内场镜像选择/交付依据、H05当前调用证据，并汇总到QA17。所列事项无需整改/补跑；未豁免核心问题继续核验。下文旧工具接口不覆盖本口径，原报告和冻结脚本保留原样，豁免PASS不表示实跑验证完成。
 
 # Harbor Harness 兼容性检查
 
@@ -10,7 +10,7 @@
 - 官方：核对 [Environment](https://docs.harborframework.com/core-concepts/tasks/environment)、[Verifier](https://docs.harborframework.com/core-concepts/tasks/verifier)、[Configuration](https://docs.harborframework.com/core-concepts/tasks/configuration)、[Separate verifier](https://docs.harborframework.com/core-concepts/tasks/separate-verifier) 与 [Solution](https://docs.harborframework.com/core-concepts/tasks/solution)；旧 Task Structure 链接会重定向，优先使用这些直接页面。
 - 配置与结果的精确类型以目标版本的官方 `src/harbor/models/task/config.py`、`models/trial/config.py`、`models/job/config.py`、`models/trial/result.py`、`models/verifier/result.py` 及目标 provider 实现为准，可从 [官方仓库](https://github.com/harbor-framework/harbor) 读取。不要假定 main 永远等于已部署版本。
 
-先查包内版本锁定、运行配置或平台说明。未声明版本不直接判失败，可以明确采用带读取日期的官方文档快照作为静态对照，并在 `version_basis` 写规范 URL 和“文档静态核对，未做原生 schema 加载”；只有实际读过源码才注明源码。provider 可从明确 Docker 配置等材料推定，注明推定依据；不能确认则写 `unknown` 并维持未完成。不能把文档快照说成已安装版本。
+先查包内版本锁定、运行配置或平台说明。未声明版本不直接判失败，可以明确采用带读取日期的官方文档快照作为静态对照，并在 `version_basis` 写规范 URL 和“文档静态核对，未做原生 schema 加载”；只有实际读过源码才注明源码。provider 可从明确 Docker 配置等材料推定，注明推定依据；不能确认则写 `unknown`；仅缺当前镜像选择/内场调用依据且满足10-22豁免条件时，保留unknown并单列豁免，不据此阻断用户口径结论。不能把文档快照说成已安装版本。
 
 不要求最新 schema_version 必填；按目标版本默认值、别名与实际类型判断。内部旧示例的 memory/storage、当前 memory_mb/storage_mb 等是否可用须核对版本，不能见旧字段就判失败。原生不识别的自定义元数据本身不一定报错，但不能把 [resources] 或 [entrypoint] 当成原生生效的资源限制或入口配置，除非有实际适配映射。
 
@@ -41,7 +41,7 @@ Verifier 从 tests/ 上下文构建，镜像自行提供 `/tests/test.sh`、评�
 | H05 Job/Trial 调用配置 | 有配置时核对所选 task/provider/agent、有效覆盖、启动条件、verifier 未被禁用；检查重复键、错误路径、空选择和明确冲突。单任务 CLI 可用，不强制 job.yaml；确无配置可 not_applicable，已有反证不能跳过。 |
 | H06 NOP 自检记录 | 已有材料核对同一次 Trial 的 config.json、result.json、reward、日志、任务版本与实际镜像分支、separate、结束/异常状态及分数一致性。缺失/不齐/版本待核时记 manual、非阻断待补；无运行记录为 runtime_status=not_run，不伪填 pass。明确构建/移交/评分故障按实际影响判定，不因 NOP 放宽而忽略。旧脚本原始 fail 输出另列保留。 |
 
-H01–H04 按核心要求复核，H05 按已有材料适用，H06 如实列运行状态和待补材料；仅缺同版本 NOP 不使 QA17 或总评失败。报告必须同时列静态结论与运行状态；完成 NOP 仍不能替代真实 Baseline/Reference、Agent 迭代或正式评分证据。
+H01–H04按未豁免核心要求复核；H02网络适配、H03选镜/交付依据、H05历史配置替代当前调用、H06/NOP按10-22具体范围记录豁免，运行状态仍保真；仅缺同版本 NOP 不使 QA17 或总评失败。报告必须同时列静态结论与运行状态；完成 NOP 仍不能替代真实 Baseline/Reference、Agent 迭代或正式评分证据。
 
 ## NOP 自检（当前可后补）
 
