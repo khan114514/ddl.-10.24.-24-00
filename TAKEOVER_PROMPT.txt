@@ -1,0 +1,9 @@
+请接手本仓库 auto0492、auto0505、auto0776、auto0783 四题返修。先读根 AGENTS.md、README.md、START_HERE.md、handoff/FOUR_TASKS.json 和顶层五套 AutoResearch Skill，按各题 repair_plan.md 及两份最新独立报告继续已有工作，不重新认领、不重复已经有效完成的验证。
+
+本轮上传集中保存了源码、原始证据、已有修复、最新返修意见和最新本地 Skill。先运行 python3 release_tools/verify_handoff.py --restore-empty-dirs，再运行 python3 auto0776/tools/verify_handoff.py；这只是交接完整性校验。DD/Bifrost 完整大包按 DOWNLOADS.md 下载并逐项验证大小/SHA256。RF/OneDC 缺少的大模型资产按各题部署说明取得。不可把源码视图误认为完整运行资产。
+
+当前四题均非最终通过。保留真实历史分数、原始日志、暂停状态及工具身份；修核心问题后按真实证据复验，不能改分数、改锚点、改 QA 工具或补造记录。2026-10-21 五项放宽继续适用，详见 handoff/CURRENT_REVIEW_POLICY.md；不要仅为指纹、换卡补证或 NOP 缺口启动强制补跑。
+
+用户后续明确启动实际返修时，按当前算力和模型授权执行；整理上传本身不恢复暂停控制器或启动付费长实验。auto0505 单独保留 A100 优先授权，其他题按自身 H20/L20 合同。所有 Doubao/Ark/Seed 只走 Coding Plan，可信主控读取保护配置，不把凭据交给 Actor，不回退按量接口，不自行替换指定模型。
+
+研究 Actor 只见该题合法公开输入与自身 Public 历史，不能看到本专家仓库、Reference、Hidden、另一轨或旧 pilot。最终交付完整 ZIP、SHA256、两种 AI 独立新会话报告及核心共识；只有真实同一最终包通过适用口径后才能称完成。缺少官方 0.3.10 工具如实注明，旧版工具不能冒充新版平台验收。不要自动联系第三方或提交平台。

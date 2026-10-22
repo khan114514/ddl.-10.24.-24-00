@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-22",
+  "status": "CLEAR_AFTER_EXACT_FINDING_REVIEW",
+  "raw_scanner_status": "NOT_READY",
+  "official_0310_tool": false,
+  "all_findings_reviewed": true,
+  "finding_count": 27,
+  "new_document_scan_clear": true,
+  "findings": [
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/exception.txt",
+        "line": 36
+      },
+      "file_sha256": "1f8f335cd65796cb50b7a9ec44fc00b4c8b3063ca494863d10534cb8eb35d9a4",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/exception.txt",
+        "line": 39
+      },
+      "file_sha256": "1f8f335cd65796cb50b7a9ec44fc00b4c8b3063ca494863d10534cb8eb35d9a4",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/exception.txt",
+        "line": 58
+      },
+      "file_sha256": "1f8f335cd65796cb50b7a9ec44fc00b4c8b3063ca494863d10534cb8eb35d9a4",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/result.json",
+        "line": 85
+      },
+      "file_sha256": "a3f6ae3aedc5a6480056f6bc50732a04d0793a5477c9c58a75b8d36fba60a5c8",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/result.json",
+        "line": 86
+      },
+      "file_sha256": "a3f6ae3aedc5a6480056f6bc50732a04d0793a5477c9c58a75b8d36fba60a5c8",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/trial.log",
+        "line": 20
+      },
+      "file_sha256": "c07eab3805f3fb6c87ae8356867a107c9d6fc42c9c6d71717c28ad64eb226614",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/trial.log",
+        "line": 23
+      },
+      "file_sha256": "c07eab3805f3fb6c87ae8356867a107c9d6fc42c9c6d71717c28ad64eb226614",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/trial.log",
+        "line": 42
+      },
+      "file_sha256": "c07eab3805f3fb6c87ae8356867a107c9d6fc42c9c6d71717c28ad64eb226614",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native.stdout.log",
+        "line": 48
+      },
+      "file_sha256": "6252a080bcdc7b8fc52f4ccb1c34833fcf2f357bcf5bdea07e7126961b698e3f",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native.stdout.log",
+        "line": 53
+      },
+      "file_sha256": "6252a080bcdc7b8fc52f4ccb1c34833fcf2f357bcf5bdea07e7126961b698e3f",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native.stdout.log",
+        "line": 75
+      },
+      "file_sha256": "6252a080bcdc7b8fc52f4ccb1c34833fcf2f357bcf5bdea07e7126961b698e3f",
+      "classification": "HTTP verb in registry auth failure; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "CREDENTIAL_ASSIGNMENT",
+        "path": "auto0776/skills/autoresearch-manager/scripts/test_manager.py",
+        "line": 247
+      },
+      "file_sha256": "b5b558186e9ab2b5981cf5e69818644863ac391890ef083913e181cebcfabdc2",
+      "classification": "Test Path object assignment, no credential literal"
+    },
+    {
+      "finding": {
+        "code": "PRIVATE_IPV4",
+        "path": "auto0776/source/onedc_v9/expert_evidence/platform_adapter/runtime-pip-freeze.txt",
+        "line": 33
+      },
+      "file_sha256": "ef123fa31c959cfdd2dc7ce61a0fe8b7d3475797e08f60c25263c48232b098dd",
+      "classification": "NVIDIA dependency version, not network endpoint"
+    },
+    {
+      "finding": {
+        "code": "EMAIL",
+        "path": "auto0776/source/onedc_v9/workspace/harbor_task/environment/public_assets/eval_public/kodim01.png",
+        "line": 272
+      },
+      "file_sha256": "a56e27cbf5f843c048b6af1d6e090760e9c92fadba88b7dee0205918a37523bd",
+      "classification": "Printable random bytes inside CRC-valid compressed PNG raster IDAT",
+      "matches": [
+        {
+          "start": 550799,
+          "end": 550808,
+          "encoding": "ascii",
+          "fragment_sha256": "244d4aff855b32ed6e61a705c0508f62861f69376416b5b43c0004d0280ae26c"
+        }
+      ],
+      "decoded_raster_bytes": 1180160
+    },
+    {
+      "finding": {
+        "code": "EMAIL",
+        "path": "auto0776/source/onedc_v9/workspace/harbor_task/environment/repo/onedc/assets/rd_curve.png",
+        "line": 154
+      },
+      "file_sha256": "052cd11032fa204165bb1db313dfec3daca627097ac49da192e1aa5973fbb83d",
+      "classification": "Printable random bytes inside CRC-valid compressed PNG raster IDAT",
+      "matches": [
+        {
+          "start": 505645,
+          "end": 505653,
+          "encoding": "ascii",
+          "fragment_sha256": "49c9649364f64906c91e3ea3f3c502afec36e4b5857d74b4e53bfdc3b107c00a"
+        }
+      ],
+      "decoded_raster_bytes": 19484850
+    },
+    {
+      "finding": {
+        "code": "PRIVATE_IPV4",
+        "path": "auto0776/source/onedc_v9/workspace/harbor_task/environment/requirements-lock.txt",
+        "line": 42
+      },
+      "file_sha256": "61be427606347b1b52289fe784e9f6eed62bd8eb405f735d17ac03ff3fc8d82c",
+      "classification": "NVIDIA dependency version, not network endpoint"
+    },
+    {
+      "finding": {
+        "code": "ROOT_HOME",
+        "path": "auto0783/source/Runtime/run_isolation.py",
+        "line": 98
+      },
+      "file_sha256": "88ed451c2a4d736dbd88f7a9be111b6c63827c84e4df87ebaa32efa11958ae18",
+      "classification": "Generic protected directory security probe; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "ROOT_HOME",
+        "path": "auto0783/source/expert_evidence/historical-before-storage-topology-selection/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+        "line": 18
+      },
+      "file_sha256": "9b39039fdc01c146a384b3234a52fa2719f4ba0f81dd9d5636c3b65fd10f4492",
+      "classification": "Generic protected directory security probe; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "ROOT_HOME",
+        "path": "auto0783/source/expert_evidence/historical-before-storage-topology-selection/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+        "line": 44
+      },
+      "file_sha256": "9b39039fdc01c146a384b3234a52fa2719f4ba0f81dd9d5636c3b65fd10f4492",
+      "classification": "Generic protected directory security probe; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "ROOT_HOME",
+        "path": "auto0783/source/expert_evidence/historical-before-storage-topology-selection/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+        "line": 70
+      },
+      "file_sha256": "9b39039fdc01c146a384b3234a52fa2719f4ba0f81dd9d5636c3b65fd10f4492",
+      "classification": "Generic protected directory security probe; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "ROOT_HOME",
+        "path": "auto0783/source/expert_evidence/historical-before-user10h/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+        "line": 18
+      },
+      "file_sha256": "a82f953989d0d1aca62487207d430677c449133f42aa2de67e1b0fa6f0b31b89",
+      "classification": "Generic protected directory security probe; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "ROOT_HOME",
+        "path": "auto0783/source/expert_evidence/historical-before-user10h/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+        "line": 44
+      },
+      "file_sha256": "a82f953989d0d1aca62487207d430677c449133f42aa2de67e1b0fa6f0b31b89",
+      "classification": "Generic protected directory security probe; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "ROOT_HOME",
+        "path": "auto0783/source/expert_evidence/historical-before-user10h/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+        "line": 70
+      },
+      "file_sha256": "a82f953989d0d1aca62487207d430677c449133f42aa2de67e1b0fa6f0b31b89",
+      "classification": "Generic protected directory security probe; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "ROOT_HOME",
+        "path": "auto0783/source/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+        "line": 18
+      },
+      "file_sha256": "dda8aa7bac624898fed26d77423d878e38d84d414093203f27c68b88798f4ea8",
+      "classification": "Generic protected directory security probe; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "ROOT_HOME",
+        "path": "auto0783/source/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+        "line": 44
+      },
+      "file_sha256": "dda8aa7bac624898fed26d77423d878e38d84d414093203f27c68b88798f4ea8",
+      "classification": "Generic protected directory security probe; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "ROOT_HOME",
+        "path": "auto0783/source/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+        "line": 70
+      },
+      "file_sha256": "dda8aa7bac624898fed26d77423d878e38d84d414093203f27c68b88798f4ea8",
+      "classification": "Generic protected directory security probe; exact prior proof revalidated"
+    },
+    {
+      "finding": {
+        "code": "API_TOKEN",
+        "path": "handoff/FOUR_TASKS.json",
+        "line": 4
+      },
+      "file_sha256": "b0266ab588006f82c2f9cbc748b68d4006222ce904dac2594bfc0a6f98a2af3f",
+      "classification": "Descriptive scope label lexically matched token prefix; label replaced and file rescanned clear"
+    }
+  ],
+  "scope": "Publication privacy only. No task QA/GPU/platform acceptance claim."
+}

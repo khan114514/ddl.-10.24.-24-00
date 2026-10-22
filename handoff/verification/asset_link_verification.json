@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-22",
+  "scope": "GitHub Release API metadata only, not a new full download",
+  "assets": [
+    {
+      "name": "auto0492-dd-complete.zip.001",
+      "size_matches": true,
+      "digest_matches": true,
+      "url_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "name": "auto0492-dd-complete.zip.002",
+      "size_matches": true,
+      "digest_matches": true,
+      "url_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "name": "auto0492-dd-complete.zip.003",
+      "size_matches": true,
+      "digest_matches": true,
+      "url_matches": true,
+      "state": "uploaded"
+    },
+    {
+      "name": "auto0783-complete.zip",
+      "size_matches": true,
+      "digest_matches": true,
+      "url_matches": true,
+      "state": "uploaded"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "status": "NOT_READY",
+  "implementation": "local-strict-protocol-extension/1",
+  "official_upstream_protocol": false,
+  "findings": [
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/exception.txt",
+      "line": 36
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/exception.txt",
+      "line": 39
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/exception.txt",
+      "line": 58
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/result.json",
+      "line": 85
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/result.json",
+      "line": 86
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/trial.log",
+      "line": 20
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/trial.log",
+      "line": 23
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native-trial/trial.log",
+      "line": 42
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native.stdout.log",
+      "line": 48
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native.stdout.log",
+      "line": 53
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0492/source/dd_v5_0_3_recovery_20261006/expert_evidence/current_native_nop_20261006_recovery/original-registry-failure/native.stdout.log",
+      "line": 75
+    },
+    {
+      "code": "CREDENTIAL_ASSIGNMENT",
+      "path": "auto0776/skills/autoresearch-manager/scripts/test_manager.py",
+      "line": 247
+    },
+    {
+      "code": "PRIVATE_IPV4",
+      "path": "auto0776/source/onedc_v9/expert_evidence/platform_adapter/runtime-pip-freeze.txt",
+      "line": 33
+    },
+    {
+      "code": "EMAIL",
+      "path": "auto0776/source/onedc_v9/workspace/harbor_task/environment/public_assets/eval_public/kodim01.png",
+      "line": 272
+    },
+    {
+      "code": "EMAIL",
+      "path": "auto0776/source/onedc_v9/workspace/harbor_task/environment/repo/onedc/assets/rd_curve.png",
+      "line": 154
+    },
+    {
+      "code": "PRIVATE_IPV4",
+      "path": "auto0776/source/onedc_v9/workspace/harbor_task/environment/requirements-lock.txt",
+      "line": 42
+    },
+    {
+      "code": "ROOT_HOME",
+      "path": "auto0783/source/Runtime/run_isolation.py",
+      "line": 98
+    },
+    {
+      "code": "ROOT_HOME",
+      "path": "auto0783/source/expert_evidence/historical-before-storage-topology-selection/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+      "line": 18
+    },
+    {
+      "code": "ROOT_HOME",
+      "path": "auto0783/source/expert_evidence/historical-before-storage-topology-selection/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+      "line": 44
+    },
+    {
+      "code": "ROOT_HOME",
+      "path": "auto0783/source/expert_evidence/historical-before-storage-topology-selection/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+      "line": 70
+    },
+    {
+      "code": "ROOT_HOME",
+      "path": "auto0783/source/expert_evidence/historical-before-user10h/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+      "line": 18
+    },
+    {
+      "code": "ROOT_HOME",
+      "path": "auto0783/source/expert_evidence/historical-before-user10h/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+      "line": 44
+    },
+    {
+      "code": "ROOT_HOME",
+      "path": "auto0783/source/expert_evidence/historical-before-user10h/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+      "line": 70
+    },
+    {
+      "code": "ROOT_HOME",
+      "path": "auto0783/source/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+      "line": 18
+    },
+    {
+      "code": "ROOT_HOME",
+      "path": "auto0783/source/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+      "line": 44
+    },
+    {
+      "code": "ROOT_HOME",
+      "path": "auto0783/source/expert_evidence/portable-runtime-isolation/original-isolation-closure.json",
+      "line": 70
+    },
+    {
+      "code": "API_TOKEN",
+      "path": "handoff/FOUR_TASKS.json",
+      "line": 4
+    }
+  ],
+  "scanned_payloads": 7124,
+  "scanned_bytes_including_nested": 412135227
+}

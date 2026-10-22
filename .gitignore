@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.zip
+*.tar
+*.tar.gz
+runtime_private/
+new_runs/
+**/weights/
+**/runtime-image/asset-copy-receipt.json

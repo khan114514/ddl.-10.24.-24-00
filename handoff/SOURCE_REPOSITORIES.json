@@ -1,0 +1,13 @@
+{
+  "repositories": [
+    {
+      "url": "https://github.com/khan114514/help-me-LC",
+      "commit": "cd9ff14e3d57659d74d62642d8512553cad2e08c"
+    },
+    {
+      "url": "https://github.com/khan114514/7-others",
+      "commit": "e33623551919ede4bbe60b76039eb8dc22c3be23"
+    }
+  ],
+  "scope": "copy existing published bytes, add combined navigation; no rewrite of original scoring/QA"
+}

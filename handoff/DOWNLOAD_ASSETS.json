@@ -1,0 +1,30 @@
+[
+  {
+    "task": "auto0492",
+    "name": "auto0492-dd-complete.zip.001",
+    "bytes": 1900000000,
+    "sha256": "99638f957ed3398224accd40c91db80288590e811a4d48c1719772f0fdbd1852",
+    "download_url": "https://github.com/khan114514/7-others/releases/download/review-2026-10-22/auto0492-dd-complete.zip.001"
+  },
+  {
+    "task": "auto0492",
+    "name": "auto0492-dd-complete.zip.002",
+    "bytes": 1900000000,
+    "sha256": "3c26773e445be712c51f086c10111e308e66ba8e8136ffe0e3604ca6ff486391",
+    "download_url": "https://github.com/khan114514/7-others/releases/download/review-2026-10-22/auto0492-dd-complete.zip.002"
+  },
+  {
+    "task": "auto0492",
+    "name": "auto0492-dd-complete.zip.003",
+    "bytes": 1846534682,
+    "sha256": "fc9f6edf2d58abda4bc448af0ddd583e809e2cbf5ac7b34bffec6c6a8025b12c",
+    "download_url": "https://github.com/khan114514/7-others/releases/download/review-2026-10-22/auto0492-dd-complete.zip.003"
+  },
+  {
+    "task": "auto0783",
+    "name": "auto0783-complete.zip",
+    "bytes": 814694203,
+    "sha256": "c97e90c1e23768b61b992fa0b03b0894a4a7d425b33bafe077160ff911aa2e3c",
+    "download_url": "https://github.com/khan114514/7-others/releases/download/review-2026-10-22/auto0783-complete.zip"
+  }
+]
